@@ -111,7 +111,7 @@ type provider struct {
 func New() *Container {
 	return &Container{
 		providers: map[reflect.Type]provider{},
-		results:    map[reflect.Type]reflect.Value{},
+		results:   map[reflect.Type]reflect.Value{},
 	}
 }
 
@@ -175,8 +175,8 @@ func (c *Container) Invoke(function interface{}) error {
 	vt := v.Type()
 
 	var err error
-	params:= make([]reflect.Value,vt.NumIn())
-	for i:=0;i<vt.NumIn();i++{
+	params := make([]reflect.Value, vt.NumIn())
+	for i := 0; i < vt.NumIn(); i++ {
 		params[i], err = c.buildParam(vt.In(i))
 		if err != nil {
 			return err
@@ -192,7 +192,7 @@ func (c *Container) Invoke(function interface{}) error {
 // 2. 递归获取 provider 的参数值
 // 3. 获取到参数之后执行函数
 // 4. 将结果缓存并且返回结果
-func (c *Container) buildParam(param reflect.Type)(val reflect.Value, err error){
+func (c *Container) buildParam(param reflect.Type) (val reflect.Value, err error) {
 	if result, ok := c.results[param]; ok {
 		return result, nil
 	}
@@ -208,7 +208,7 @@ func (c *Container) buildParam(param reflect.Type)(val reflect.Value, err error)
 	for _, result := range results {
 		// 判断是否报错
 		if isError(result.Type()) && !result.IsNil() {
-			return reflect.Value{}, fmt.Errorf("%s call err: %+v", provider, result)
+			return reflect.Value{}, fmt.Errorf("%v call err: %+v", provider, result)
 		}
 
 		if !isError(result.Type()) && !result.IsNil() {

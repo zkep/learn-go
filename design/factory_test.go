@@ -110,9 +110,6 @@ func Test_jsonConfigParserFactory_CreateSystemParser(t *testing.T) {
 	}
 }
 
-
-
-
 // A 依赖关系 A -> B -> C
 type A struct {
 	B *B
@@ -150,16 +147,16 @@ func NewC() *C {
 func TestContainer(t *testing.T) {
 	container := New()
 	err := container.Provide(NewA)
-	assert.Nil(t,err)
+	assert.Nil(t, err)
 
 	err = container.Provide(NewB)
-	assert.Nil(t,err)
+	assert.Nil(t, err)
 
 	err = container.Provide(NewC)
-	assert.Nil(t,err)
+	assert.Nil(t, err)
 
 	err = container.Invoke(func(a *A) {
 		fmt.Printf("%+v: %d", a, a.B.C.Num)
 	})
-	assert.Nil(t,err)
+	assert.Nil(t, err)
 }
