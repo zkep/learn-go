@@ -6,8 +6,8 @@ import (
 )
 
 type Keyword struct {
-	word   string
-	visit  int
+	word      string
+	visit     int
 	UpdatedAt *time.Time
 }
 
