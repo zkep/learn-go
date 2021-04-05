@@ -17,6 +17,7 @@ type IUser interface {
 	Login(username, password string) error
 }
 
+// @proxy IUser
 type User struct{}
 
 func (u *User) Login(username, password string) error {
@@ -81,7 +82,6 @@ func generate(file string) (string, error) {
 	// 构建注释和node的关系
 	cmap := ast.NewCommentMap(fset, f, f.Comments)
 	for node, group := range cmap {
-		// 从注释 @proxy 接口名，获取接口名称
 		name := getProxyInterfaceName(group)
 		if name == "" {
 			continue
