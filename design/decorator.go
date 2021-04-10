@@ -1,28 +1,24 @@
 package design
 
-
 type IDraw interface {
 	Draw() string
 }
 
-type Square struct {}
+type Square struct{}
 
-func (s Square) Draw() string{
+func (s Square) Draw() string {
 	return "this is a square"
 }
 
-
 type ColorSquare struct {
 	square IDraw
-	color string
+	color  string
 }
 
-func NewColorSquare(square IDraw,color string) ColorSquare{
-	return ColorSquare{square: square,color: color}
+func NewColorSquare(square IDraw, color string) ColorSquare {
+	return ColorSquare{square: square, color: color}
 }
 
-func (c ColorSquare) Draw() string{
-	return  c.square.Draw() +", color is " +c.color
+func (c ColorSquare) Draw() string {
+	return c.square.Draw() + ", color is " + c.color
 }
-
-
