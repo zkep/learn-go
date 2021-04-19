@@ -1,10 +1,8 @@
 package design
 
-
-
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestNewChessBoard(t *testing.T) {

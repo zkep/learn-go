@@ -1,6 +1,5 @@
 package design
 
-
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"

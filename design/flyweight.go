@@ -1,7 +1,5 @@
 package design
 
-
-
 // ChessPieceUnit 棋子享元
 type ChessPieceUnit struct {
 	ID    uint
@@ -35,13 +33,10 @@ type ChessPiece struct {
 	Y    int
 }
 
-
 // ChessBoard 棋局
 type ChessBoard struct {
 	chessPieces map[int]*ChessPiece
 }
-
-
 
 // NewChessBoard 初始化棋盘
 func NewChessBoard() *ChessBoard {
