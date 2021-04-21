@@ -16,3 +16,4 @@ go日常学习，包括设计模式，高级的用法
 11. [享元模式](design/flyweight.go)
 12. [观察者模式](design/observer.go)
 13. [模版模式](design/template.go)
+14. [责任链模式](design/chain.go)
