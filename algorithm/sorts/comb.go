@@ -8,7 +8,7 @@ func getNextGap(gap int) int {
 	return gap
 }
 
-func comb(array []int) []int {
+func Comb(array []int) []int {
 	length := len(array)
 	gap := length
 	swapped := true

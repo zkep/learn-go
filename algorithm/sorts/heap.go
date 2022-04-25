@@ -1,5 +1,6 @@
 package sorts
 
+// 堆排序
 type MaxHeap struct {
 	slice    []Comparable
 	headSize int

@@ -4,9 +4,9 @@ import (
 	"testing"
 )
 
-func TestCount(t *testing.T) {
+func TestInsertion(t *testing.T) {
 	array := []int{16, 25, 9, 15, 2, 82, 78, 31, 11, 36, -3}
-	array = Count(array)
+	array = Insertion(array)
 	t.Log(array)
 	t.FailNow()
 }

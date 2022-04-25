@@ -1,7 +1,7 @@
 package sorts
 
 // 计数排序
-func count(array []int) []int {
+func Count(array []int) []int {
 	var max, min = Imax(array), Imin(array)
 	numbers := make([]int, max-min+1)
 	for _, value := range array {
