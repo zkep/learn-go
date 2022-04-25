@@ -44,25 +44,25 @@
 
 |  **类型**  |                                                   **设计模式（Github）**                                                   | **常用** |
 | :--------: |:--------------------------------------------------------------------------------------------------------------------:| :------: |
-| **创建型** |      [单例模式(Singleton Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/01_singleton)      |    ✅     |       
-|            |        [工厂模式(Factory Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/02_factory)         |    ✅     |         
-|            |        [建造者模式(Builder Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/03_builder)        |    ✅     |       
-|            |      [原型模式(Prototype Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/04_prototype)       |    ❌     |           
-| **结构型** |          [代理模式(Proxy Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/05_proxy)           |    ✅     | 
-|            |         [桥接模式(Bridge Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/06_bridge)          |    ✅     |           
-|            |      [装饰器模式(Decorator Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/07_decorator)      |    ✅     |         
-|            |        [适配器模式(Adapter Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/08_adapter)        |    ✅     |           
-|            |         [门面模式(Facade Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/09_facade)          |    ❌     |         
-|            |      [组合模式(Composite Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/10_composite)       |    ❌     |      
-|            |      [享元模式(Flyweight Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/11_flyweight)       |    ❌     |         
-| **行为型** |       [观察者模式(Observer Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/12_observer)       |    ✅     | 
-|            |    [模板模式(Template Method Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/13_template)    |    ✅     |        
-|            |    [策略模式(Strategy Method Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/14_strategy)    |    ✅     |           
-|            | [职责链模式(Chain Of Responsibility Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/15_chain) |    ✅     |   
-|            |          [状态模式(State Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/16_state)           |    ✅     |            
-|            |       [迭代器模式(Iterator Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/17_iterator)       |    ✅     |         
-|            |  [访问者模式(Visitor Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/18_visitor/visitor.go)   |    ❌     | 
-|            |        [备忘录模式(Memento Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/19_memento)        |    ❌     |           
-|            |        [命令模式(Command Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/20_command)         |    ❌     |          
-|            |    [解释器模式(Interpreter Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/21_interpreter)    |    ❌     |         
-|            |       [中介模式(Mediator Design Pattern)](https://github.com/zkep/learn-go/design-pattern/blob/master/22_mediator)        |    ❌     |   
+| **创建型** |      [单例模式(Singleton Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/01_singleton)      |    ✅     |       
+|            |        [工厂模式(Factory Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/02_factory)         |    ✅     |         
+|            |        [建造者模式(Builder Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/03_builder)        |    ✅     |       
+|            |      [原型模式(Prototype Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/04_prototype)       |    ❌     |           
+| **结构型** |          [代理模式(Proxy Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/05_proxy)           |    ✅     | 
+|            |         [桥接模式(Bridge Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/06_bridge)          |    ✅     |           
+|            |      [装饰器模式(Decorator Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/07_decorator)      |    ✅     |         
+|            |        [适配器模式(Adapter Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/08_adapter)        |    ✅     |           
+|            |         [门面模式(Facade Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/09_facade)          |    ❌     |         
+|            |      [组合模式(Composite Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/10_composite)       |    ❌     |      
+|            |      [享元模式(Flyweight Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/11_flyweight)       |    ❌     |         
+| **行为型** |       [观察者模式(Observer Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/12_observer)       |    ✅     | 
+|            |    [模板模式(Template Method Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/13_template)    |    ✅     |        
+|            |    [策略模式(Strategy Method Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/14_strategy)    |    ✅     |           
+|            | [职责链模式(Chain Of Responsibility Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/15_chain) |    ✅     |   
+|            |          [状态模式(State Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/16_state)           |    ✅     |            
+|            |       [迭代器模式(Iterator Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/17_iterator)       |    ✅     |         
+|            |  [访问者模式(Visitor Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/18_visitor/visitor.go)   |    ❌     | 
+|            |        [备忘录模式(Memento Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/19_memento)        |    ❌     |           
+|            |        [命令模式(Command Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/20_command)         |    ❌     |          
+|            |    [解释器模式(Interpreter Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/21_interpreter)    |    ❌     |         
+|            |       [中介模式(Mediator Design Pattern)](https://github.com/zkep/learn-go/tree/master/design-pattern/22_mediator)        |    ❌     |   
